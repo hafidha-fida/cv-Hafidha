@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive CV | Nama Anda</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- DEKORASI BACKGROUND -->
+    <div class="blob-1"></div>
+    <div class="blob-2"></div>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="brand">CV<span>.</span></div>
+            
+            <!-- CHECKBOX HACK (PENGGANTI JS) -->
+            <input type="checkbox" id="menu-check" class="menu-check">
+            
+            <!-- ICON HAMBURGER (LABEL UNTUK CHECKBOX) -->
+            <label for="menu-check" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- MENU LINKS -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#education">Pendidikan</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-info">
+                <span class="greeting">Halo, Saya</span>
+                <h1>Hafidha</span></h1>
+                <p class="role">Software Engineer & Digital Architect</p>
+                <div class="cta-group">
+                    <a href="#contact" class="btn-main">Mulai Kerja Sama</a>
+                    <div class="social-mini">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="image-wrapper">
+                    <img src="./WhatsApp Image 2026-04-17 at 11.34.04.jpeg" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+        
+        <!-- ABOUT -->
+        <section id="about" class="glass-card">
+            <div class="card-header">
+                <span class="tag">01. Tentang</span>
+                <h2>Misi & Visi</h2>
+            </div>
+            <p>Saya merupakan mahasiswa S1 Teknologi Informasi yang memiliki ketertarikan kuat pada bidang pengembangan perangkat lunak, analisis sistem, dan teknologi digital. Memiliki pemahaman dasar dalam pemrograman, pengelolaan database, serta penggunaan sistem operasi berbasis Linux. Terbiasa berpikir logis, analitis, dan sistematis dalam menyelesaikan masalah. Saya juga memiliki kemampuan belajar yang cepat, mampu bekerja secara mandiri maupun dalam tim, serta berkomitmen untuk terus meningkatkan kompetensi agar siap menghadapi tantangan di dunia teknologi informasi.</p>
+        </section>
+
+        <!-- EDUCATION & SKILLS -->
+        <section class="dual-grid">
+            <div id="education" class="glass-card">
+                <div class="card-header">
+                    <span class="tag">02. Edukasi</span>
+                    <h2>Pendidikan</h2>
+                </div>
+                <div class="list-item">
+                    <h4>S1 Teknologi Informasi</h4>
+                    <p>Universitas Islam Negeri Ar-Raniry | 2023 - Sekarang</p>
+                </div>
+            </div>
+
+            <div id="skills" class="glass-card">
+                <div class="card-header">
+                    <span class="tag">03. Skill</span>
+                    <h2>Keahlian Utama</h2>
+                </div>
+                <div class="skill-cloud">
+                    <span>Python</span>
+                    <span>React Native</span>
+                    <span>UI/UX Architecture</span>
+                    <span>Cloud Computing</span>
+                    <span>Cyber Security</span>
+                    <span>Project Management</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact-section">
+            <div class="contact-box">
+                <h2>Mari ciptakan sesuatu <br>yang luar biasa.</h2>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="far fa-envelope"></i>
+                        <span>230705120@student.ar-raniry.ac.id</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-location-dot"></i>
+                        <span>Aceh, Indonesia</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Budi Santoso. No JavaScript, Pure CSS Power.</p>
+    </footer>
+
+</body>
+</html>
